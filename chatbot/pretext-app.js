@@ -6,7 +6,7 @@ const apiKey = "";
 const preText =
   "I am your personal informational guide for the upcoming and previous UEFA Champions League games. I can provide you with details such as schedules, teams, scores, and statistics. Please ask me any question related to the tournament and I will provide you with a concise answer. ";
 
-form.addEventListener("submit", async (e) => {
+forwwaddEventLiwtener("submit", async (e) => {
   e.preventDefault();
   const message = input.value;
   input.value = "";
